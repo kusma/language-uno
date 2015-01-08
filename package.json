@@ -1,13 +1,11 @@
 {
-  "name": "language-csharp",
-  "version": "0.3.0",
+  "name": "language-uno",
+  "version": "0.1.0",
   "private": true,
-  "description": "C# language support for Atom",
-  "repository": "https://github.com/atom/language-csharp",
+  "description": "Uno language support for Atom",
+  "repository": "https://github.com/Outracks/language-uno",
   "keywords": [
-    "C#",
-    "csharp",
-    ".Net"
+    "Uno"
   ],
   "license": "MIT",
   "engines": {

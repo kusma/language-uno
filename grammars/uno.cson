@@ -1,7 +1,7 @@
-'scopeName': 'source.cs'
-'name': 'C#'
+'scopeName': 'source.uno'
+'name': 'Uno'
 'fileTypes': [
-  'cs'
+  'uno'
 ]
 'foldingStartMarker': '^\\s*#\\s*region|^\\s*/\\*|^(?![^{]*?//|[^{]*?/\\*(?!.*?\\*/.*?\\{)).*?\\{\\s*($|//|/\\*(?!.*?\\*/.*\\S))'
 'foldingStopMarker': '^\\s*#\\s*endregion|^\\s*\\*/|^\\s*\\}'
