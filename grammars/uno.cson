@@ -71,7 +71,7 @@
   'builtinTypes':
     'patterns': [
       {
-        'match': '\\b(bool|byte|sbyte|char|decimal|double|float[234]?|int[234]?|uint|long|ulong|object|short|ushort|string|void|class|struct|enum|interface)\\b'
+        'match': '\\b(bool|byte|sbyte|char|decimal|double|float([234]?|[234]x[234]?)|int[234]?|uint|long|ulong|object|short|ushort|string|void|class|struct|enum|interface)\\b'
         'name': 'storage.type.source.uno'
       }
     ]
