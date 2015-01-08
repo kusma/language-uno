@@ -71,12 +71,12 @@
   'builtinTypes':
     'patterns': [
       {
-        'match': '\\b(bool|byte|sbyte|char|decimal|double|float([234]?|[234]x[234]?)|int[234]?|uint|long|ulong|object|short|ushort|string|void|class|struct|enum|interface)\\b'
+        'match': '\\b(bool|byte|sbyte|char|decimal|double|float([234]?|[234]x[234]?)|int[234]?|uint|long|ulong|object|short|ushort|string|void|class|struct|enum|interface|block)\\b'
         'name': 'storage.type.source.uno'
       }
     ]
   'class':
-    'begin': '(?=\\w?[\\w\\s]*(?:class|struct|interface|enum)\\s+\\w+)'
+    'begin': '(?=\\w?[\\w\\s]*(?:class|struct|interface|enum|block)\\s+\\w+)'
     'end': '}'
     'endCaptures':
       '0':
@@ -95,7 +95,7 @@
             'name': 'storage.modifier.source.uno'
           '2':
             'name': 'entity.name.type.class.source.uno'
-        'match': '(class|struct|interface|enum)\\s+(\\w+)'
+        'match': '(class|struct|interface|enum|block)\\s+(\\w+)'
         'name': 'meta.class.identifier.source.uno'
       }
       {
@@ -259,7 +259,7 @@
         'name': 'keyword.operator.source.uno'
       }
       {
-        'match': '\\b(var|event|delegate|add|remove|set|get|value)\\b'
+        'match': '\\b(var|event|delegate|add|remove|set|get|value|apply)\\b'
         'name': 'keyword.other.source.uno'
       }
     ]
