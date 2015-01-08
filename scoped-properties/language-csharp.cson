@@ -1,4 +1,4 @@
-'.source.cs':
+'.source.uno':
   'editor':
     'commentStart': '// '
     'increaseIndentPattern': '(?x)\n\t\t^ .* \\{ [^}"\']* $\n\t|   ^ \\s* \\{ \\} $\n\t'
