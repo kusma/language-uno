@@ -2,6 +2,8 @@
 
 Adds syntax highlighting and snippets to Uno files in Atom.
 
+Based on the [Atom C# package](https://github.com/atom/language-csharp).
+
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [C# TextMate bundle](https://github.com/wintermi/csharp-tmbundle).
 
