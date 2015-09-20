@@ -12,6 +12,8 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "language-javascript": ">= 0.94.0",
+    "language-json": ">= 0.16.0",
     "language-xml": ">= 0.27.0"
   }
 }

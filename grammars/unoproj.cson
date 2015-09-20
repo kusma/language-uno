@@ -5,6 +5,6 @@
 ]
 'patterns': [
   {
-    'include': 'text.xml'
+    'include': 'source.json'
   }
 ]
