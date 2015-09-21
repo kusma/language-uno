@@ -467,5 +467,5 @@
       }
     ]
   'storage-modifiers':
-    'match': '\\b(event|delegate|internal|public|protected|private|static|const|new|sealed|abstract|virtual|override|extern|unsafe|readonly|volatile|implicit|explicit|operator|async|partial)\\b'
+    'match': '\\b(event|delegate|internal|public|protected|private|static|const|new|sealed|abstract|virtual|override|extern|unsafe|readonly|volatile|implicit|explicit|operator|async|partial|intrinsic|swizzler)\\b'
     'name': 'storage.modifier.source.uno'
